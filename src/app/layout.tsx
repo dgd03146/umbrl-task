@@ -4,7 +4,7 @@ import Footer from './_components/Footer';
 import Header from './_components/Header';
 import type { Metadata } from 'next';
 import { Rubik } from 'next/font/google';
-import localFont from '@next/font/local';
+import localFont from 'next/font/local';
 
 const gilroy = localFont({
   src: [{ path: './fonts/Gilroy.otf' }],
