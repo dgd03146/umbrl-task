@@ -7,7 +7,7 @@ import { Rubik } from 'next/font/google';
 import localFont from '@next/font/local';
 
 const gilroy = localFont({
-  src: './fonts/Gilroy.otf',
+  src: [{ path: './fonts/Gilroy.otf' }],
   display: 'swap',
   variable: '--font-gilroy',
 });
