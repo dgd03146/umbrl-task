@@ -7,11 +7,18 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      primary: '#473BF0',
+      secondary: 'rgba(71, 59, 240,0.08)',
+      black: '#161C2D',
+      green: '#68D585',
+      red: '#F74D4D',
+      white: '#FFFFFF',
+    },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        gilroy: ['var(--font-gilroy)'],
+        rubik: ['var(--font-rubik)'],
       },
     },
   },
